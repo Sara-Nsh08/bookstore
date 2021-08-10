@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 
-function FirstComponent() {
+function SecondComponent() {
     return (
         <React.Fragment>
             <div>
-                <h2>This is my first component</h2>
-                <img src="tig.jpg" alt="the tiger" heigth="250" width="300"></img>
+                <h1>Hi, my name is Saransh Tyagi</h1>
+                <p>I am learning react</p>
             </div>
         </React.Fragment>
     )
 }
-export default FirstComponent
+export default SecondComponent
