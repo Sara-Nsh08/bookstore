@@ -28,6 +28,7 @@ function Bookstore() {
     )
 }
 const Book = (props) => {
+    //const Book=(img,title,author)=props; //this is just another way of using props and we refers to  the expected objects
     return (<article className="book">
             <img src={props.img} />
             <h1>{props.title}</h1>
