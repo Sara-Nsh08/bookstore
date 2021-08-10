@@ -5,7 +5,7 @@ function NestedComponent()
         return(
             <div>
                 <h3>Parent</h3>
-                <child />
+                <child /> {/*nesting the component "child"*/}
             </div>
         )      
     }
